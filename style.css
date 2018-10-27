@@ -1,0 +1,16 @@
+.card-header {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.card-title {
+    background: blue;
+    color: white;
+    text-align: left;
+}
+
+#name, #rate, #start, #months, #monthlyRate, #total {
+    text-align: left;
+    font: bold;
+}
