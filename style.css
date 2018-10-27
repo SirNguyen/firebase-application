@@ -4,10 +4,16 @@
     text-align: center;
 }
 
+.card-body {
+    border: 5px thick;
+    border-color: black;
+}
+
 .card-title {
-    background: blue;
+    background: navy;
     color: white;
     text-align: left;
+    padding: 20px 20px;
 }
 
 #name, #rate, #start, #months, #monthlyRate, #total {
