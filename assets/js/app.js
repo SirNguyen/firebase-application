@@ -1,4 +1,7 @@
 // Initialize Firebase
+
+var database = firebase.database();
+
 var config = {
     apiKey: "AIzaSyCCXDBvWPE-ldjI9NqCVoe4Vom-IjM_jAM",
     authDomain: "in-class-project-e3bb6.firebaseapp.com",
@@ -9,8 +12,13 @@ var config = {
   };
   firebase.initializeApp(config);
 
-(document).on("click", function() {
+
+  // point to HTML handling input
+$("input").on("click", function(snapshot) {
     // initial row div
     dataDiv = $("<div>");
     dataDiv.attr("class", "row");
+
+    // push function
+    database.push()
 })
