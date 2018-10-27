@@ -31,6 +31,8 @@ $("#add-employee").on("click", function(event) {
     dataRef.ref().push( {
             name: name,
             Prate: Prate,
+            startDate: startDate,
+            monthRate: monthRate,
         });
 
 
