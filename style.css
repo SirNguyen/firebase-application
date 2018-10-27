@@ -5,8 +5,7 @@
 }
 
 .card-body {
-    border: 5px thick;
-    border-color: black;
+    border: 2px solid black;
 }
 
 .card-title {
